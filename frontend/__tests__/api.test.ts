@@ -31,7 +31,7 @@ describe("API Client", () => {
       const result = await api.getTasks("user-123");
 
       expect(fetch).toHaveBeenCalledWith(
-        "http://localhost:8000/api/user-123/tasks",
+        "https://creativesar-phase-11-todo.hf.space/api/user-123/tasks",
         expect.objectContaining({
           headers: expect.objectContaining({
             "Content-Type": "application/json",
