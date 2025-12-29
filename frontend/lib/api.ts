@@ -8,7 +8,7 @@ import {
 } from "./types";
 import { getAuthToken } from "./auth";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://creativesar-phase-11-todo.huggingface.co";
 
 /**
  * API Client for making authenticated requests to the backend API.
