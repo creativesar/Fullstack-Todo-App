@@ -39,7 +39,10 @@
       "Bash(git add:*)",
       "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Fullstack Todo App with Urdu i18n\n\nFullstack task management application with:\n- Next.js 16 frontend with App Router\n- FastAPI Python backend\n- PostgreSQL database \\(Neon\\)\n- Complete Urdu i18n support with RTL layout\n- JWT authentication via Better Auth\n- Responsive design with Tailwind CSS\n\nFeatures:\n- Task CRUD operations\n- Language switcher \\(English/Urdu\\)\n- Real-time updates\n- User authentication\n- Dark mode support\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
       "Bash(del nul)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git remote add:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git push:*)"
     ]
   }
 }
